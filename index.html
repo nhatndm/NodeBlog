@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html ng-app="main">
+    <head>
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/custom/custom.css">
+        <title>Code blog</title>
+    </head>
+    <body ng-controller="homecontroler">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand">NnBlog</a>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Welcome To My Blog</h1>
+                <p>This is place where you can find everything about technical, live and whatever that you like..</p>
+                <p>Click button below for dicovering</p>
+                <button class="btn btn-lg btn-danger" ng-click="alert()">Click Me</button>
+            </div>
+        </div>
+    </body>
+    <script src ="angular/angular.min.js"></script>
+    <script src ="/homectrl.js"></script>
+</html>
