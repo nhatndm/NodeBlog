@@ -1,4 +1,4 @@
-var app = angular.module('main',[]);
+var app = angular.module('main',['ui.bootstrap']);
 
 app.controller('homecontroler',function($scope,$http){
 
