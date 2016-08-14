@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html ng-app="NodeBlog">
+    <head>
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/custom/custom.css">
+        <link rel="stylesheet" href="angular-ui-bootstrap/dist/ui-bootstrap-csp.css">
+        <title>Social Blog Project</title>
+    </head>
+    <body>
+        <div class="container" ng-controller="homecontroler">
+            <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">NnBlog</a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="">New Tutorial</a></li>
+                            <li><a href="">Find Tutorial</a></li>
+                        </ul>
+                    </div>
+            </nav>
+            <div ui-view></div>         
+        </div>       
+    </body>
+    <!-- Angular Library-->
+    <script src ="angular/angular.min.js"></script>
+    <!-- Ui-Bootrap Library For Angular-->
+    <script src ="angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+    <!-- Ui-Router Library For Angular-->
+    <script src ="angular-ui-router/release/angular-ui-router.min.js"></script>
+    <!-- Jquery Library-->
+    <script src ="jquery/dist/jquery.min.js"></script>
+    <!-- Bootrap Library-->
+    <script src ="bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Controller Library-->
+    <script src ="mainctrl.js"></script>
+    <script src ="homectrl.js"></script>
+    <script src ="approute.js"></script>
+</html>

@@ -15,9 +15,11 @@ app.use(express.static(__dirname + '/node_modules'));
 app.use(express.static(__dirname + '/controler'));
 //* Set url for resource forlder
 app.use(express.static(__dirname + '/resource'));
+//* Set url for views 
+app.use(express.static(__dirname + '/views'));
 //* Get Home Page
 app.get('/',function(req,res){
-    res.sendFile(__dirname + '/views/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 //* Get data on Table Contact From Database Contactlist
 blog(app,db);
